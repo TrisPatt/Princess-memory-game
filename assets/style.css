@@ -5,5 +5,13 @@
 }
 
 body {
-    background-color: palevioletred;
+    background-color: pink;
+}
+#game-area {
+    height: 120px;
+    width: 60px;
+    background-color: gray;
+}
+p {
+    color: whitesmoke;
 }

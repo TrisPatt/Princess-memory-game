@@ -1,4 +1,4 @@
-//create an array of objects for the 16 cards
+//create an array of objects for the 8 cards
 const cardPickArray = [
     {name: 'Ariel', img: 'assets/images/Ariel.webp'},
     {name: 'Aurora', img: 'assets/images/Aurora.webp'},
@@ -10,9 +10,15 @@ const cardPickArray = [
     {name: 'Tiana', img: 'assets/images/Tiana.webp'},
     
 ]
-
-//To duplicate the cards
+//To duplicate the cards to make pairs
 const cards = [...cardPickArray, ...cardPickArray];
 
-console.log(cards);
+//Randomise cards
+cards.sort(() => 0.5 - Math.random());
+
+
+//To create the game area
+
+
+
 
